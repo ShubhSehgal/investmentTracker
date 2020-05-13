@@ -1,10 +1,10 @@
 # investmentTracker
 
-Purpose ---#########################
+Purpose --------------------------------------------------------------------------------------------------------------
 
 Recently, I got into investing and purchased mutual funds to grow my savings that I earned through summer jobs. During busy periods like exam seasons, I often forget to check the markets, which means if my investments start going down, I am not aware and unable to sell in time before making a loss. The goal of Investment Tracker is to automatically open a window whenever I turn my laptop on in the morning to give me information regarding the mutual funds and stocks I am interested or invested in. Since I use my laptop every day, there is no way I will be unaware of the market’s situation if the information is automatically opened and presented to me. 
 
-Tools ---#########################
+Tools  --------------------------------------------------------------------------------------------------------------
 
 •	Python for scripting
 
@@ -14,11 +14,11 @@ Tools ---#########################
 
 •	Windows Task Scheduler to run script every time laptop is started
 
-How it Works ---#########################
+How it Works ----------------------------------------------------------------------------------------------------------------
 
 Windows Task Scheduler is first passed the task to run the investmentTracker.py file on startup or login. When the script is run, Selenium Webdriver is used to automatically open a chrome tab and navigate to The Globe and Mail’s watchlist page. The login button is then clicked, and login credentials entered by the script. Once that is complete, the website will load the watchlist giving the user information about their stocks/funds. 
 
-Setup ---#########################
+Setup -----------------------------------------------------------------------------------------------------------------
 
 Before running the program for the first time, the following must be done:
 
